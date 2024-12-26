@@ -1,3 +1,5 @@
+
+
 function checkAuth(){
     if(getAuthToken()){
         window.location.href = "./index.html";
