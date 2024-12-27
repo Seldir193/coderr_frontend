@@ -181,6 +181,8 @@ async function patchData(endpoint, formData) {
     }
 }
 
+
+
 async function deleteData(endpoint) {
     try {
         const response = await fetch(`${API_BASE_URL}${endpoint}`, {
@@ -221,4 +223,3 @@ async function deleteData(endpoint) {
         };
     }
 }
-
