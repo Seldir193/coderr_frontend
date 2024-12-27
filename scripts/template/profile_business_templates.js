@@ -285,7 +285,7 @@ function getBusinessDialogFormTemplate() {
                         </div>
                         <div class="form_group">
                             <label for="business_edit_tel">Telefonnummer:</label>
-                            <input type="number" id="business_edit_tel" name="tel" value="${currentUser.tel}" required
+                            <input type="number" id="business_edit_tel" name="tel" value="${currentUser.tel || ''}" required 
                                 class="input_field" autocomplete="off">
                         </div>
                         <div class="form_group">
