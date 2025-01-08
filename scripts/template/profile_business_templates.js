@@ -11,6 +11,7 @@ function getBusinessProfilePageTemplate(currentUser, currentOrders, currentOffer
                     
                     ${getBusinessProfileTemplate(currentUser)}
                     
+                    
                 </div>
                 <button onclick="redirectToBusinessProfile(${currentUser.user})" class="std_btn btn_prime d_flex_cc_gm w_full">
                     <img src="./assets/icons/visibility.svg" alt="" srcset="">
