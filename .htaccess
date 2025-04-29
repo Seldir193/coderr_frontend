@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /coderr/
+
+# vorhandene Dateien/Ordner ausliefern
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [L]
+
+# alles andere → index.html
+RewriteRule ^.*$ /coderr/index.html [L]
