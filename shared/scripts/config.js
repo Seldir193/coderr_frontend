@@ -16,8 +16,8 @@ const API_BASE_URL    = isProd
   : "http://127.0.0.1:8000/api/";
 
 const STATIC_BASE_URL = isProd
-  ? "https://api.selcuk-kocyigit.de/"
-  : "http://127.0.0.1:8000/";
+  ? "https://api.selcuk-kocyigit.de" 
+  : "http://127.0.0.1:8000";
 
 const LOGIN_URL = 'login/';
 
